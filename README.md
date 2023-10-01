@@ -1,6 +1,6 @@
 # Linux Tutorials
 
-![Alt Text](./src/images/background.png)
+![Alt Text](./_media/images/background.png)
 
 ## Description
 
@@ -24,8 +24,26 @@ Working with Linux might seem a bit confusing and unnatural at first, but once y
 Download Ubuntu desktop image file from [here](https://releases.ubuntu.com/focal/). Now, download VMWare Workstation Player from the [official website](https://www.vmware.com/ca/products/workstation-player.html). Unlike VMWare Pro, this version is free but only allows one virtual machine.
 
 
+![Alt Text](./_media/images/VMWare_setup.JPG)
 
 
+
+Select the iso file, choose a username and password and then install the virtual machine.
+
+
+## Usage
+
+Open a terminal with:
+
+```
+Ctrl + Alt + T
+```
+
+For opening another terminal on the same page:
+
+```
+Ctrl + Shift + T
+```
 
 ```bash
 # Example installation steps
@@ -41,3 +59,11 @@ function exampleFunction()
     return 'Hello, World!';
 }
 ```
+
+python
+cmake 
+git 
+ssh
+ssh keygen
+
+sudo apt search
