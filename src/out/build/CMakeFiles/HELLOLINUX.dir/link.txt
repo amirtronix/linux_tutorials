@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/HELLOLINUX.dir/main.cpp.o  -o HELLOLINUX 
