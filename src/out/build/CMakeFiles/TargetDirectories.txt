@@ -1,3 +1,0 @@
-/home/praetor/Documents/Codes/linux_tutorials/src/out/build/CMakeFiles/rebuild_cache.dir
-/home/praetor/Documents/Codes/linux_tutorials/src/out/build/CMakeFiles/edit_cache.dir
-/home/praetor/Documents/Codes/linux_tutorials/src/out/build/CMakeFiles/HELLOLINUX.dir
