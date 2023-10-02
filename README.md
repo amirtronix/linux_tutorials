@@ -64,7 +64,7 @@ $ ls -l / # list root directory
 ```
 
 ```bash
-$ pwd # Display the path name of the working directory
+$ pwd # display the path name of the working directory
 ```
 
 ```bash
@@ -72,16 +72,16 @@ $ cd  # change direcotry
 ```
 
 ```bash
-$ mkdir # makde a directory
+$ mkdir # make a directory
 ```
 
 ```bash
 $ mv # move a file or directory
 ```
 
-### Short Keys
+### Shortkeys
 
-Useful short keys on a terminal:
+Useful shortkeys on a terminal:
 
 
 ```
@@ -168,6 +168,29 @@ $ chmod +x hello.py
 $ python hello.py
 ```
 
+
+### Pip
+
+
+To install pip:
+
+
+```bash
+$ sudo apt install python3-pip
+```
+
+To list packages, run:
+
+```bash
+$ pip list
+```
+
+To install a package, like numpy, simply run:
+
+
+```bash
+$ pip install numpy
+```
 
 ## C++
 
@@ -292,10 +315,86 @@ $ ./run.sh
 
 ## Git
 
-Setting up Git is crucial for organizing your codes and version control. 
+Setting up Git is crucial for organizing your codes and version control. To install Git:
 
+```bash
+$ sudo apt install git
+```
+
+
+To clone a repository, simply run:
+
+
+```bash
+$ git clone git@github.com:roboticswithamir/linux_tutorials.git
+```
+
+You cannot directly make changes to repositories where you don't have developer access. To do so, you have to fork a repository first and then clone the fork one. So, you can simply access this repo over [here](https://github.com/roboticswithamir/linux_tutorials/tree/main) and then click on fork. Now clone your forked repo in a new folder. Before committing your changes, you have to add your ssh key to your github or gitlab account. To do so, first generate a ssh key:
+
+```bash
+$ cd
+$ ssh-keygen
+```
+
+Now read the key by running:
+
+```bash
+$ cat .ssh/id_rsa.pub 
+```
+Copy the key into your github account by going to settings/SSH and GPG keys and add click on "New ssh key" and copy your key there.
+
+You can now make changes and add all files to git by:
+
+```bash
+$ git add .
+```
+
+Then make a commit:
+
+
+```bash
+$ git commit -m "Add main.c"
+```
+
+And push it:
+
+```bash
+$ git push
+```
 
 ## SSH
+
+SSH offers secure and reliable access to a remote linux station or even a local one as a virtual machine. With SSH, one can simply develop codes over a local IDE or code editor on a Windows or other OS. SSH is installed by default on Ubuntu, however, it's needed to install ssh server as:
+
+```bash
+$ sudo apt install openssh-server
+```
+
+Then run:
+
+
+
+```bash
+$ sudo service ssh start
+$ sudo service ssh status
+```
+For establishing an ssh, you need to have your host IP address. Install net-tools package:
+
+
+```bash
+$ sudo apt install net-tools
+```
+And run:
+
+```bash
+$ ifconfig
+```
+
+Now you can SSH into your host by running the following command on your desired terminal on Windows shell or anywhere else:
+
+```bash
+$ ssh usename@ip
+```
 
 
 
@@ -315,10 +414,7 @@ function exampleFunction()
 }
 ```
 
-python
-cmake 
-git 
-ssh
-ssh keygen
-
-sudo apt search
+```bash
+# Example installation steps
+$ sudo apt search
+```
