@@ -174,6 +174,7 @@ $ python hello.py
 Developing and building C++ files are pretty chill on Linux. First you should install CMake:
 
 
+
 ```bash
 $ sudo apt update
 $ sudo apt install cmake
@@ -213,6 +214,20 @@ int main(int argc, char* argv[])
 ```
 
 Now create your CMakeList.txt file:
+
+```bash
+$ touch CMakeLists.txt
+```
+
+And write:
+
+```cmake
+cmake_minimum_required(VERSION 3.16.3)
+
+project(HELLOLINUX VERSION 1.0)
+
+add_executable(${PROJECT_NAME} main.cpp)
+```
 
 
 ### Configure
