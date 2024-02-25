@@ -19,9 +19,18 @@ Working with Linux might seem a bit confusing and unnatural at first, but once y
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installations
+## Installations (Dual Boot)
 
-Download Ubuntu desktop image file from [here](https://releases.ubuntu.com/focal/). Now, download VMWare Workstation Player from the [official website](https://www.vmware.com/ca/products/workstation-player.html). Unlike VMWare Pro, this version is free but only allows one virtual machine.
+Download Ubuntu desktop image file from [here](https://releases.ubuntu.com/focal/). 
+
+
+
+
+
+## Installations (Virtual Machine)
+
+
+Download VMWare Workstation Player from the [official website](https://www.vmware.com/ca/products/workstation-player.html). Unlike VMWare Pro, this version is free but only allows one virtual machine.
 
 
 ![Alt Text](./_media/images/VMWare_setup.JPG)
