@@ -19,12 +19,34 @@ Working with Linux might seem a bit confusing and unnatural at first, but once y
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installations (Dual Boot)
+## Installations (Dual Boot on Windows)
 
-Download Ubuntu desktop image file from [here](https://releases.ubuntu.com/focal/). 
+Download Ubuntu desktop image file from [here](https://releases.ubuntu.com/focal/). Search "create and format hard disk partitions" on your Windows search bar. Right click on your C: volume and select shrink volume. 
+
+![Alt Text](./_media/images/shrink.png)
+
+Enter your desired space in MB and click OK.
+
+![Alt Text](./_media/images/shrink_size.png)
+
+Burn the Ubuntu 20 image on a USB with Rufus prefrably. Restart your Windows and keep pressing "Del" or "F11" to enter BIOS settings (the BIOS buttons might differ on your system). Once in BIOS settings, change the boot priority to USB and then save and reboot.
+
+Click on "Install Ubuntu". Select your language and then choose "Normal Installation" on "Updates and other software" tab.
+
+![Alt Text](./_media/images/installation.JPG)
+
+Over "Installation Type" tab select "something else".
+
+![Alt Text](./_media/images/installation_type.JPG)
 
 
+ Click on "free space":
 
+ ![Alt Text](./_media/images/drive.JPG)
+
+ Then click on + button. Type "/" for "Mount point" and then click ok and then install.
+
+ ![Alt Text](./_media/images/partition.JPG)
 
 
 ## Installations (Virtual Machine)
