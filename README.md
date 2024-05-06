@@ -428,6 +428,13 @@ $ ssh usename@ip
 ```
 
 
+## Run as Root
+
+To run a shell as root simply run:
+
+```
+sudo -i
+```
 
 ## Installations
 ```bash
