@@ -283,6 +283,11 @@ project(HELLOLINUX VERSION 1.0)
 add_executable(${PROJECT_NAME} main.cpp)
 ```
 
+### Compiled Assembly 
+
+```
+g++ -g -c -Wa,-alh main.cc > main.s
+```
 
 ### Configure
 
