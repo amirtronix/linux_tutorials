@@ -283,6 +283,11 @@ project(HELLOLINUX VERSION 1.0)
 add_executable(${PROJECT_NAME} main.cpp)
 ```
 
+### Compiled Assembly 
+
+```
+g++ -g -c -Wa,-alh main.cc > main.s
+```
 
 ### Configure
 
@@ -446,6 +451,51 @@ Crontab command format:
 ```
 # 0 0 * * * /home/user/automate.sh >> /home/user/log.txt
 ```
+
+## Run as Root
+
+To run a shell as root simply run:
+
+```
+sudo -i
+```
+
+
+## Conda
+
+Setup the .bashrc to prevent conda from being activate in every shell, hwoever, activate easily by "activate conda".
+
+```
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+# __conda_setup="$('/home/amirtronics/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__conda_setup"
+# else
+#     if [ -f "/home/amirtronics/miniconda3/etc/profile.d/conda.sh" ]; then
+#         . "/home/amirtronics/miniconda3/etc/profile.d/conda.sh"
+#     else
+#         export PATH="/home/amirtronics/miniconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
+# <<< conda initialize <<<
+
+if [ -f "/home/amirtronics/miniconda3/etc/profile.d/conda.sh" ]; then
+    . "/home/amirtronics/miniconda3/etc/profile.d/conda.sh"
+else
+    export PATH="/home/amirtronics/miniconda3/bin:$PATH"
+fi
+```
+
+## Nvidia Driver
+
+TODO
+
+
+## CUDA Installation
+
+TODO
 
 
 ## Installations
