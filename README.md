@@ -427,6 +427,25 @@ Now you can SSH into your host by running the following command on your desired 
 $ ssh usename@ip
 ```
 
+## Task Automation (Crontab)
+
+To perform an automated task with crontab, use the following command to start editing the default crontab file:
+
+```
+crontab -e
+```
+
+To get a list of the current tasks:
+
+```
+crontab -l
+```
+
+Crontab command format:
+
+```
+# 0 0 * * * /home/user/automate.sh >> /home/user/log.txt
+```
 
 
 ## Installations
