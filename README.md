@@ -488,6 +488,13 @@ else
 fi
 ```
 
+## VLC
+
+```
+sudo snap install vlc
+sudo apt-get install ubuntu-restricted-extras
+```
+
 ## Nvidia Driver
 
 TODO
