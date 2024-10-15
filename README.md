@@ -432,6 +432,26 @@ Now you can SSH into your host by running the following command on your desired 
 $ ssh usename@ip
 ```
 
+
+### SSH Proxy
+
+```bash
+ssh -J B C
+```
+
+```
+ssh -o ProxyCommand='ssh -W %h:%p B' C
+```
+
+If you need this every time you ssh from A to C it can be useful to add an entry in your .ssh/config file looking like this (in recent versions):
+
+```
+Host target
+    ProxyJump proxy@proxy_ip
+    HostName target_ip
+    User target_user
+```
+
 ## Task Automation (Crontab)
 
 To perform an automated task with crontab, use the following command to start editing the default crontab file:
