@@ -40,6 +40,7 @@ Required software for a standard backup:
 
 ## Utils
 
+- Git (set up key)
 - WindirStat
 - Blender
 - Steam
