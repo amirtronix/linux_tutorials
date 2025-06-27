@@ -41,6 +41,8 @@ Required software for a standard backup:
 ## Utils
 
 - Git (set up key)
+- Turtoise SVN
+- Set up WD
 - WindirStat
 - Blender
 - Steam
@@ -51,3 +53,6 @@ Required software for a standard backup:
 - Adobe Pro
 - WireShark
 - Docker (Possible Conflict with TwinCAT)
+- Telegram
+- Office
+- VLC
