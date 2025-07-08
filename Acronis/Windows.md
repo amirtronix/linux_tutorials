@@ -56,3 +56,8 @@ Required software for a standard backup:
 - Telegram
 - Office
 - VLC
+- VM Ware
+- Virtual Box
+
+## SSH
+- Set up ssh key
