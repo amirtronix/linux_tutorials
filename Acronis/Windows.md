@@ -59,5 +59,6 @@ Required software for a standard backup:
 - VM Ware
 - Virtual Box
 
-## SSH
+## Setup
 - Set up ssh key
+- Set up cuda paths
