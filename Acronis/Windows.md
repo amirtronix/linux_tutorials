@@ -62,3 +62,10 @@ Required software for a standard backup:
 ## Setup
 - Set up ssh key
 - Set up cuda paths
+
+
+## Torch Setup
+
+```
+
+```
