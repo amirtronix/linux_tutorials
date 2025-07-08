@@ -66,6 +66,14 @@ Required software for a standard backup:
 
 ## Torch Setup
 
+Create a conda env:
+
+```
+conda create --name torch python=3.10
 ```
 
+Install compatible torch version with CUDA 12.6
+
+```
+pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu126
 ```
