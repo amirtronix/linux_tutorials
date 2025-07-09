@@ -1,6 +1,6 @@
 
 <div style="text-align: center;">
-  <img src="Acronis.png" alt="Description" style="width: 600px;">
+  <img src="../_media/images/Acronis.png" alt="Description" style="width: 600px;">
 </div>
 
 # Backup Procedure
@@ -70,7 +70,7 @@ Required software for a standard backup:
 
 
 <div style="text-align: center;">
-  <img src="Registry.jpg" alt="Description" style="width: 900px;">
+  <img src="../_media/images/Registry.jpg" alt="Description" style="width: 900px;">
 </div>
 
 ## Torch Setup
