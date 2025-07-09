@@ -1,5 +1,9 @@
-# Acronis Backup
 
+<div style="text-align: center;">
+  <img src="Acronis.png" alt="Description" style="width: 600px;">
+</div>
+
+# Backup Procedure
 
 Required software for a standard backup:
 
@@ -62,7 +66,12 @@ Required software for a standard backup:
 ## Setup
 - Set up ssh key
 - Set up cuda paths
+- Setup TwinCAT Registry
 
+
+<div style="text-align: center;">
+  <img src="Registry.jpg" alt="Description" style="width: 900px;">
+</div>
 
 ## Torch Setup
 
