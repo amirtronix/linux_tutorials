@@ -31,6 +31,7 @@ Required software for a standard backup:
     - TF 2000 Server
     - Drive Mng 1
     - Drive Mng 2
+    - Studio 5000
 
 
 - .NET 2
